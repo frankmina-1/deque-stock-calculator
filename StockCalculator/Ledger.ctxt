@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Ledger
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Ledger\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Ledger()
+comment2.params=num\ price
+comment2.target=void\ buy(int,\ float)
+comment2.text=\r\n\ Method\ buy\r\n\ user\ will\ be\ prompted\ to\ enter\ how\ many\ shares\ they\ wish\ to\ buy\ and\ at\r\n\ what\ price.\ The\ information\ will\ be\ used\ to\ create\ a\ StockLot\ object\ instance\r\n\ (class\ supplied\ in\ the\ ZIP\ file),\ and\ added\ to\ the\ ledger.\ The\ program\ display\r\n\ confirmation\ of\ the\ purchase\ and\ then\ prompt\ the\ menu\ again.\r\n
+comment3.params=num\ p
+comment3.target=void\ sell(int,\ double)
+comment3.text=\r\n\ Method\ sell\r\n\ user\ will\ be\ prompted\ to\ enter\ how\ many\ shares\ they\ wish\ to\ sell\ and\ at\r\n\ what\ price.\ The\ shares\ should\ be\ removed\ from\ the\ ledger\ (as\ described\r\n\ above),\ and\ the\ capital\ gains/loss\ from\ the\ sale\ should\ be\ computed\ and\r\n\ the\ total\ capital\ gains\ be\ updated\ by\ this\ amount.\ The\ program\ should\r\n\ display\ confirmation\ of\ the\ sale\ and\ then\ prompt\ the\ menu\ again.\r\n
+comment4.params=
+comment4.target=void\ displayGains()
+comment4.text=\r\n\ The\ total\ capital\ gain/loss\ from\ all\ sell\r\n\ transactions\ thus\ far\ will\ be\ displayed.\ Due\ to\ how\ capital\ gains\ are\ taxed,\ we\r\n\ only\ care\ about\ gains/losses\ that\ are\ realized\ when\ stock\ is\ sold.\ The\ program\r\n\ will\ prompt\ the\ menu\ again.\r\n
+comment5.params=
+comment5.target=void\ quit()
+comment5.text=\r\n\ Method\ quit\r\n\ End\ the\ program.\r\n
+numComments=6
